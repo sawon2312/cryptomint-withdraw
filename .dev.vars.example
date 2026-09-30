@@ -1,0 +1,2 @@
+# Local development environment variables (copy to .dev.vars for wrangler dev)
+TELEGRAM_BOT_TOKEN="your_bot_token_from_botfather"

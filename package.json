@@ -1,0 +1,29 @@
+{
+  "name": "cryptomint-withdraw-forwarder",
+  "version": "1.0.0",
+  "description": "Telegram message-forwarding bot on Cloudflare Workers",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "start": "node userbot.js",
+    "userbot": "node userbot.js",
+    "track": "node bsc_tracker.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.143.0"
+  },
+  "keywords": [
+    "telegram-bot",
+    "cloudflare-workers",
+    "message-forwarder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "input": "^1.0.1",
+    "telegram": "^2.26.22"
+  }
+}

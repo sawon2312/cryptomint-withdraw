@@ -1,0 +1,13 @@
+name = "cryptomint-withdraw-forwarder"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+TELEGRAM_BOT_TOKEN = "8798489865:AAGRkExHDwGrD3EQ9NYRER9H0X73sEMpKQU"
+DESTINATION_CHANNEL = "@cryptomintwithdraw"
+MIN_USD_AMOUNT = "0.15"
+MAX_USD_AMOUNT = "1.00"
